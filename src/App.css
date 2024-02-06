@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  color: white; /* Ensures text is readable on a black background */
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +44,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Add to your CSS file */
+
+#contact {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+#contact label {
+  margin-top: 1rem;
+}
+
+#contact input,
+#contact textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+#contact button {
+  margin-top: 1rem;
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: darken(teal, 10%);
+}
+
+#about {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+#about h2, #about h4 {
+  color: teal;
+  margin-bottom: 15px;
+}
+
+#about p, #about ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+#about ul {
+  list-style: inside;
+}
+
+#about ul li {
+  margin-bottom: 5px;
 }
