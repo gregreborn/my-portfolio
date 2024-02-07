@@ -1,0 +1,28 @@
+/* ProjectModal.css */
+
+/* This styles the modal content area where the description text is */
+.modal-content {
+    background-color: #fff; /* Ensure the background is white */
+    color: #333; /* Dark text color for readability */
+}
+
+/* This styles the modal header */
+.modal-header {
+    border-bottom: 1px solid #dee2e6; /* A light grey bottom border, if desired */
+}
+
+/* This styles the title in the modal header */
+.modal-title {
+    color: #333; /* Dark text color for the title for readability */
+}
+
+/* This styles the buttons in the modal footer */
+.modal-footer .btn-secondary {
+    /* Style for the 'Close' button */
+    background-color: #6c757d; /* Bootstrap's default secondary button color */
+}
+
+.modal-footer .btn-primary {
+    /* Style for the 'View on GitHub' button */
+    background-color: #007bff; /* Bootstrap's default primary button color */
+}
