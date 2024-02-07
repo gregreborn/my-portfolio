@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
-import logo from '../assets/image/logo.png';
+import logo from '../../public/logo.png';
 const Header = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
