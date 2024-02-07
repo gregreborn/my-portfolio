@@ -1,5 +1,6 @@
 import React from 'react';
 import { Modal, Button } from 'react-bootstrap';
+import './ProjectModal.css'; 
 
 const ProjectModal = ({ show, handleClose, project }) => {
     return (
