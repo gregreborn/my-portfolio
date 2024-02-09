@@ -13,7 +13,12 @@ body {
   text-align: center;
 }
 
-/* Update to make the logo spin smoother and less distractive */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 40s linear;
@@ -22,8 +27,14 @@ body {
 
 .App-header {
   background-color: #282c34;
-  padding: 2rem 0; /* Adjusted padding for better spacing */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
+  padding: 2rem 0;
 }
 
 .App-link {
@@ -31,33 +42,81 @@ body {
   text-decoration: none;
 }
 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 #contact, #about {
   padding: 2rem;
   margin: 2rem auto;
-  max-width: 800px; /* Ensures content is not too stretched on wider screens */
+  max-width: 800px;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+#contact label {
+  margin-top: 1rem;
+}
+
+#contact input,
+#contact textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 #contact button {
-  background-color: #008080; /* Teal for consistency and better visibility */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  margin-top: 1rem;
+  background-color: #008080;
+  transition: background-color 0.3s;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
 }
 
 #contact button:hover {
-  background-color: #006666; /* Darker shade of teal on hover */
+  background-color: #006666;
 }
 
-#about h2, #about h4, #projects h2 {
-  color: #4dd0e1; /* Brighter teal for headings to stand out */
+#about {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.9);
 }
 
-#about p, #about ul, #projects p {
-  font-size: 1em;
-  line-height: 1.7;
+#about h2, #about h4 ,#projects h2 {
+  color: #4dd0e1;
+  margin-bottom: 15px;
 }
 
+#about p, #about ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+#about ul {
+  list-style: inside;
+}
+
+#about ul li {
+  margin-bottom: 5px;
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
   #contact form, #about, #projects {
