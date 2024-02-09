@@ -5,13 +5,7 @@ import Footer from './components/Footer';
 import ProjectCard from "./components/ProjectCard";
 
 const projects = [
-    {
-        title: 'Mobile Swift Hanggame',
-        description: 'Swift-based Hangman Game on iOS. Enter your username, guess the word, and have fun!',
-        repo: 'https://github.com/gregreborn/portfolio/tree/43b96808129e26b687b90da4623919dd7ec12b97/TP2',
-        image: 'Hangman.jpg',
-        circleImage:'swift.png',
-    },
+
     {
         title: 'Database, API, and Avalonia using .NET Core',
         description: 'Progress Quest-inspired C# game using .NET Framework and Avalonia.',
@@ -26,6 +20,14 @@ const projects = [
         image: 'card.jpeg',
         circleImage: 'go.png',
     },
+    {
+        title: 'Mobile Swift Hanggame',
+        description: 'Swift-based Hangman Game on iOS. Enter your username, guess the word, and have fun!',
+        repo: 'https://github.com/gregreborn/portfolio/tree/43b96808129e26b687b90da4623919dd7ec12b97/TP2',
+        image: 'Hangman.jpg',
+        circleImage:'swift.png',
+    },
+
 ];
 
 
