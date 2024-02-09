@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #0a0a0a; /* Darker shade for deeper contrast */
-  color: #f5f5f5; /* Slightly off-white for softer contrast */
+  background-color: #0a0a0a;
+  color: #f5f5f5;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -26,7 +26,7 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(135deg, #282c34 0%, #4b6cb7 100%);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,6 +35,12 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
   padding: 2rem 0;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .App-link {
@@ -91,7 +97,7 @@ body {
   background-color: #006666;
 }
 
-#about {
+#about, #projects {
   border: 1px solid rgba(255, 255, 255, 0.1);
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
@@ -102,7 +108,6 @@ body {
 
 #about h2, #about h4 ,#projects h2 {
   color: #4dd0e1;
-  margin-bottom: 15px;
 }
 
 #about p, #about ul {
@@ -117,7 +122,7 @@ body {
 #about ul li {
   margin-bottom: 5px;
 }
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
   #contact form, #about, #projects {
     margin: 1rem;
@@ -126,12 +131,11 @@ body {
 
   .projects-grid {
     display: grid;
-    grid-template-columns: 1fr; /* Adjust for smaller screens */
+    grid-template-columns: 1fr; 
     grid-gap: 1rem;
   }
 }
 
-/* Keyframes for logo animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
