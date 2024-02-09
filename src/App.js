@@ -36,7 +36,7 @@ function App() {
         <div>
             <Header />
             <section id="home">
-                {/* Home section content */}
+                <h1>Gregory St Facile R. - Software Developer</h1>
             </section>
             <section id="projects">
                 <div className="projects-grid">

@@ -2,41 +2,77 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: black;
-  color: white; /* Ensures text is readable on a black background */
-  font-family: 'Montserrat', sans-serif;
+  background-color: #0a0a0a; /* Darker shade for deeper contrast */
+  color: #f5f5f5; /* Slightly off-white for softer contrast */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
+/* Update to make the logo spin smoother and less distractive */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 40s linear;
   }
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 2rem 0; /* Adjusted padding for better spacing */
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+  text-decoration: none;
 }
 
+#contact, #about {
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px; /* Ensures content is not too stretched on wider screens */
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow for depth */
+}
+
+#contact button {
+  background-color: #008080; /* Teal for consistency and better visibility */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#contact button:hover {
+  background-color: #006666; /* Darker shade of teal on hover */
+}
+
+#about h2, #about h4, #projects h2 {
+  color: #4dd0e1; /* Brighter teal for headings to stand out */
+}
+
+#about p, #about ul, #projects p {
+  font-size: 1em;
+  line-height: 1.7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #contact form, #about, #projects {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Adjust for smaller screens */
+    grid-gap: 1rem;
+  }
+}
+
+/* Keyframes for logo animation */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -44,69 +80,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
-
-/* Add to your CSS file */
-
-#contact {
-  background-color: black;
-  color: white;
-  padding: 2rem;
-}
-
-#contact form {
-  display: flex;
-  flex-direction: column;
-  max-width: 500px;
-  margin: auto;
-}
-
-#contact label {
-  margin-top: 1rem;
-}
-
-#contact input,
-#contact textarea {
-  padding: 0.5rem;
-  margin-top: 0.5rem;
-}
-
-#contact button {
-  margin-top: 1rem;
-  background-color: teal;
-  color: white;
-  border: none;
-  padding: 0.7rem 1.5rem;
-  cursor: pointer;
-}
-
-#contact button:hover {
-  background-color: darken(teal, 10%);
-}
-
-#about {
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 10px;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-#about h2, #about h4 {
-  color: teal;
-  margin-bottom: 15px;
-}
-
-#about p, #about ul {
-  font-size: 1.1em;
-  line-height: 1.6;
-}
-
-#about ul {
-  list-style: inside;
-}
-
-#about ul li {
-  margin-bottom: 5px;
 }
