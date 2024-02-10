@@ -17,8 +17,8 @@ const projects = [
         title: 'Chat program using websocket TCP/UDP',
         description: 'Chat program made in C# that lets peers contained in a list to talk with each other in tcp or udp',
         repo: 'https://github.com/gregreborn/portfolio/tree/eaf209403dffdb9aac54ac13a8bb4c06c04a7c30/TP2-Reseau',
-        image: 'Hangman.jpg',
-        circleImage:'swift.png',
+        image: 'chat.jpg',
+        circleImage:'websocket.png',
     },
     {
         title: 'Card Game API',
