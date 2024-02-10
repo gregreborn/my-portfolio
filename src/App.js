@@ -10,7 +10,7 @@ const projects = [
         title: 'Database, API, and Avalonia using .NET Core',
         description: 'Progress Quest-inspired C# game using .NET Framework and Avalonia.',
         repo: 'https://github.com/gregreborn/portfolio/tree/e5e0926c4eb82a894b95e914940c067029daf2d4/Progress_Brawlhalla',
-        image: 'game.jpeg',
+        image: 'game.jpg',
         circleImage: 'cSharp.png',
     },
     {
@@ -24,7 +24,7 @@ const projects = [
         title: 'Card Game API',
         description: 'Card Game API developed in Go (Golang).',
         repo: 'https://github.com/gregreborn/portfolio/tree/572285f4a9291b9c24eff1f2982ec55bb4ba0884/card-game-api',
-        image: 'card.jpeg',
+        image: 'card.jpg',
         circleImage: 'go.png',
     },
     {
