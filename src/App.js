@@ -14,6 +14,13 @@ const projects = [
         circleImage: 'cSharp.png',
     },
     {
+        title: 'Chat program using websocket TCP/UDP',
+        description: 'Chat program made in C# that lets peers contained in a list to talk with each other in tcp or udp',
+        repo: 'https://github.com/gregreborn/portfolio/tree/eaf209403dffdb9aac54ac13a8bb4c06c04a7c30/TP2-Reseau',
+        image: 'Hangman.jpg',
+        circleImage:'swift.png',
+    },
+    {
         title: 'Card Game API',
         description: 'Card Game API developed in Go (Golang).',
         repo: 'https://github.com/gregreborn/portfolio/tree/572285f4a9291b9c24eff1f2982ec55bb4ba0884/card-game-api',
