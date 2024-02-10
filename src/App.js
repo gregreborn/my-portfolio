@@ -72,7 +72,7 @@ function App() {
                         </p>
                     </div>
                     <div className="about-image">
-                        <img src="/public/coder.webp" alt="Gregory working" />
+                        <img src="/public/coder.jpg" alt="Gregory working" />
                     </div>
                 </div>
             </section>
