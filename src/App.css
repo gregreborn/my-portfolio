@@ -125,11 +125,15 @@ h1 {
 .about-container {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about-text, .about-image {
   flex: 1;
+  padding: 1rem;
 }
 
 .about-image img {
@@ -138,10 +142,11 @@ h1 {
   border-radius: 10px;
 }
 
-/* Responsive styling */
+
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
+    justify-content: space-around;
   }
 }
 
