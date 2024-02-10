@@ -122,6 +122,29 @@ h1 {
 #about ul li {
   margin-bottom: 5px;
 }
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-text, .about-image {
+  flex: 1;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; 
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
+
 
 @media (max-width: 768px) {
   #contact form, #about, #projects {

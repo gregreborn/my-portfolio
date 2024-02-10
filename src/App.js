@@ -47,27 +47,34 @@ function App() {
                 </div>
             </section>
             <section id="about">
-                <h2>About Me</h2>
-                <p>
-                    I am Gregory St Facile R., a passionate software developer with a diverse skill set in programming and technical support. My journey in tech started at Cegep de Lanaudière, Joliette, where I honed my programming skills and am currently in the final stages of my studies.
-                </p>
-                <p>
-                    My technical foundation was built at CFP des Riverains, Repentigny, where I specialized in database management and networking. This included mastering various software like VMware, vSphere, vCenter, and gaining practical experience in PC assembly, IP telephony, and Microsoft Office Suite. I'm also well-versed in Windows and Windows Server environments.
-                </p>
-                <h4>Skills:</h4>
-                <ul>
-                    <li>Bilingual: Fluent in both French and English.</li>
-                    <li>Strong service-oriented mindset, honest and ethical.</li>
-                    <li>Proficient in Windows Server 2012 and 2016.</li>
-                    <li>Ability to work effectively under pressure.</li>
-                    <li>Keen on staying updated with smartphone technologies.</li>
-                    <li>Excellent team player with strong collaborative skills.</li>
-                    <li>Programming expertise in C#, C++, Java, JavaScript, SQL, Swift, Kotlin, Golang, HTML, CSS, PHP.</li>
-                </ul>
-                <h4>Experience:</h4>
-                <p>
-                    Currently, I am employed at Walmart, Joliette in the OMNI online order department since March 2020. My role involves providing efficient customer service for online order management, utilizing organizational skills to handle a diverse range of products, and working in a dynamic environment to ensure swift order processing.
-                </p>
+                <div className={"about-container"}>
+                    <div className={"about-text"}>
+                        <h2>About Me</h2>
+                        <p>
+                            I am Gregory St Facile R., a passionate software developer with a diverse skill set in programming and technical support. My journey in tech started at Cegep de Lanaudière, Joliette, where I honed my programming skills and am currently in the final stages of my studies.
+                        </p>
+                        <p>
+                            My technical foundation was built at CFP des Riverains, Repentigny, where I specialized in database management and networking. This included mastering various software like VMware, vSphere, vCenter, and gaining practical experience in PC assembly, IP telephony, and Microsoft Office Suite. I'm also well-versed in Windows and Windows Server environments.
+                        </p>
+                        <h4>Skills:</h4>
+                        <ul>
+                            <li>Bilingual: Fluent in both French and English.</li>
+                            <li>Strong service-oriented mindset, honest and ethical.</li>
+                            <li>Proficient in Windows Server 2012 and 2016.</li>
+                            <li>Ability to work effectively under pressure.</li>
+                            <li>Keen on staying updated with smartphone technologies.</li>
+                            <li>Excellent team player with strong collaborative skills.</li>
+                            <li>Programming expertise in C#, C++, Java, JavaScript, SQL, Swift, Kotlin, Golang, HTML, CSS, PHP.</li>
+                        </ul>
+                        <h4>Experience:</h4>
+                        <p>
+                            Currently, I am employed at Walmart, Joliette in the OMNI online order department since March 2020. My role involves providing efficient customer service for online order management, utilizing organizational skills to handle a diverse range of products, and working in a dynamic environment to ensure swift order processing.
+                        </p>
+                    </div>
+                    <div className="about-image">
+                        <img src="/coder.webp" alt="Gregory working" />
+                    </div>
+                </div>
             </section>
             <section id="contact">
                 <h2>Contact Me</h2>
