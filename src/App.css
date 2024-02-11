@@ -136,6 +136,40 @@ h1 {
   padding: 1rem;
 }
 
+#about, #contact, #skills {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#about h2,
+#skills h2,
+#contact h2 {
+  color: #4dd0e1;
+}
+
+#about p,
+#about ul,
+#skills p,
+#skills ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+#about ul,
+#skills ul {
+  list-style: inside;
+}
+
+#about ul li,
+#skills ul li {
+  margin-bottom: 5px;
+}
+
 .about-image img {
   max-width: 100%;
   height: auto;
