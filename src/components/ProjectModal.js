@@ -12,17 +12,15 @@ const ProjectModal = ({ show, handleClose, project }) => {
             </Modal.Header>
             <Modal.Body>
                 {hasImages ? (
-                    <Carousel>
-                        {project.images.map((imgUrl, index) => (
-                            <Carousel.Item key={index}>
-                                <img
-                                    className="d-block w-100"
-                                    src={imgUrl}
-                                    alt={`Slide ${index + 1}`}
-                                />
-                            </Carousel.Item>
-                        ))}
-                    </Carousel>
+                    <Carousel.Item key={index}>
+                        <img
+                            className="d-block w-100"
+                            src={imgUrl}
+                            alt={`Slide ${index + 1}`}
+                            style={{ maxHeight: '500px', objectFit: 'contain' }} // Adjust maxHeight as needed
+                        />
+                    </Carousel.Item>
+
                 ) : null}
                 <p>{project.description}</p>
             </Modal.Body>
