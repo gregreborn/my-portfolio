@@ -38,7 +38,7 @@ const projects = [
         title: 'Brawlhalla Ohara App',
         description: 'A comprehensive app for Brawlhalla enthusiasts, featuring character guides, strategies, and more.',
         repo: 'https://github.com/gregreborn/portfolio/tree/0108e231417b341204a7f06df74a816f7fe2040b/Brawlhalla_Ohara',
-        image: 'Brawlhalla_Ohara.png', 
+        image: 'Brawlhalla_Ohara.png',
         circleImage: 'flutter.png',
         images: [
             '/1.jpg',
