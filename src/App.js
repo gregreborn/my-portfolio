@@ -41,10 +41,10 @@ const projects = [
         image: 'Brawlhalla_Ohara.png',
         circleImage: 'flutter.png',
         images: [
-            '/1.jpg',
-            '/2.jpg',
-            '/3.jpg',
-            '/4.jpg',
+            '1.jpg',
+            '2.jpg',
+            '3.jpg',
+            '4.jpg',
         ],
     }
 
