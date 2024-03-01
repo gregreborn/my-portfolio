@@ -18,7 +18,7 @@ const ProjectModal = ({ show, handleClose, project }) => {
                                 <img
                                     className="d-block w-100"
                                     src={imgUrl}
-                                    alt={`Slide ${index + 1}`}
+                                    alt={`Slide ${index + 1}`}z
                                 />
                             </Carousel.Item>
                         ))}
