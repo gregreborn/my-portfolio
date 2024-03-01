@@ -1,9 +1,8 @@
 import React from 'react';
 import { Modal, Button, Carousel } from 'react-bootstrap';
-import './ProjectModal.css'; // Assuming you have custom styles for your modal
+import './ProjectModal.css';
 
 const ProjectModal = ({ show, handleClose, project }) => {
-    // Check if there are images to display in the carousel
     const hasImages = project.images && project.images.length > 0;
 
     return (
