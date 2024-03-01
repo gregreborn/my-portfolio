@@ -34,6 +34,19 @@ const projects = [
         image: 'Hangman.jpg',
         circleImage:'swift.png',
     },
+    {
+        title: 'Brawlhalla Ohara App',
+        description: 'A comprehensive app for Brawlhalla enthusiasts, featuring character guides, strategies, and more.',
+        repo: 'https://github.com/gregreborn/portfolio/tree/0108e231417b341204a7f06df74a816f7fe2040b/Brawlhalla_Ohara',
+        image: 'flutter.png', // Assuming you have a main image or icon for your app
+        circleImage: 'Brawlhalla_Ohara.png', // An icon or logo representative of your app
+        images: [
+            '/1.jpg',
+            '/2.jpg',
+            '/3.jpg',
+            '/4.jpg',
+        ],
+    }
 
 ];
 

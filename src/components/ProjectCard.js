@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import ProjectModal from './ProjectModal';
-import './ProjectCard.css'; // Import the CSS file
+import './ProjectCard.css';
 
 const ProjectCard = ({ project }) => {
     const [modalShow, setModalShow] = useState(false);
