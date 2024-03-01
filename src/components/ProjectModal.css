@@ -31,30 +31,3 @@
     height: auto; /* This ensures the image height scales proportionally */
     object-fit: contain; /* This ensures the image is scaled correctly within its box */
 }
-/* Change the color of the left and right carousel control icons */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    background-image: none; /* Remove the default background image */
-}
-
-/* Add custom styles for the left navigation arrow */
-.carousel-control-prev {
-    color: teal; /* Change the color to teal */
-}
-
-/* Add the custom arrow icon */
-.carousel-control-prev::before {
-    content: '<'; /* You can use a different character or icon as per your design */
-    font-size: 24px; /* Adjust the size as necessary */
-}
-
-/* Add custom styles for the right navigation arrow */
-.carousel-control-next {
-    color: teal; /* Change the color to teal */
-}
-
-/* Add the custom arrow icon */
-.carousel-control-next::before {
-    content: '>'; /* You can use a different character or icon as per your design */
-    font-size: 24px; /* Adjust the size as necessary */
-}
