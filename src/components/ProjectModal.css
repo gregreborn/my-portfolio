@@ -26,3 +26,8 @@
     /* Style for the 'View on GitHub' button */
     background-color: #007bff; /* Bootstrap's default primary button color */
 }
+.carousel img {
+    width: 100%; /* This ensures the image is as wide as its container */
+    height: auto; /* This ensures the image height scales proportionally */
+    object-fit: contain; /* This ensures the image is scaled correctly within its box */
+}

@@ -19,7 +19,6 @@ const ProjectModal = ({ show, handleClose, project }) => {
                                     className="d-block w-100"
                                     src={imgUrl}
                                     alt={`Slide ${index + 1}`}
-                                    style={{ maxHeight: '500px', objectFit: 'contain' }} // Adjust maxHeight as needed
                                 />
                             </Carousel.Item>
                         ))}
