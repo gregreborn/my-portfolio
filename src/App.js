@@ -5,7 +5,19 @@ import Footer from './components/Footer';
 import ProjectCard from "./components/ProjectCard";
 
 const projects = [
-
+    {
+        title: 'Brawlhalla Ohara App',
+        description: 'A comprehensive app for Brawlhalla enthusiasts, featuring character guides, strategies, and more.',
+        repo: 'https://github.com/gregreborn/portfolio/tree/master/Brawlhalla_Ohara',
+        image: 'Brawlhalla_Ohara.png',
+        circleImage: 'flutter.png',
+        images: [
+            '1.jpg',
+            '2.jpg',
+            '3.jpg',
+            '4.jpg',
+        ],
+    },
     {
         title: 'Database, API, and Avalonia using .NET Core',
         description: 'Progress Quest-inspired C# game using .NET Framework and Avalonia.',
@@ -34,19 +46,7 @@ const projects = [
         image: 'Hangman.jpg',
         circleImage:'swift.png',
     },
-    {
-        title: 'Brawlhalla Ohara App',
-        description: 'A comprehensive app for Brawlhalla enthusiasts, featuring character guides, strategies, and more.',
-        repo: 'https://github.com/gregreborn/portfolio/tree/master/Brawlhalla_Ohara',
-        image: 'Brawlhalla_Ohara.png',
-        circleImage: 'flutter.png',
-        images: [
-            '1.jpg',
-            '2.jpg',
-            '3.jpg',
-            '4.jpg',
-        ],
-    }
+
 
 ];
 
