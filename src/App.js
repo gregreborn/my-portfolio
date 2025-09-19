@@ -6,6 +6,24 @@ import ProjectCard from "./components/ProjectCard";
 
 const projects = [
     {
+        title: 'Projet Annonce — Internship',
+        description:
+            'Classifieds platform at Culture Lanaudière. Built ImageUploader, MediaUploader, FileExplorer, advanced search & form validation (PHP, Mustache, Foundation 5.5.1).',
+        repo: 'https://github.com/gregreborn/projet-annonce',
+        image: 'project.png',        
+        circleImage: 'Foundation.png',
+        images: [
+            'internship-1.png',
+            'internship-2.png',
+            'internship-3.png',
+            'internship-4.png',
+            'internship-5.png',
+            'internship-6.png',
+            'internship-7.png',
+        ],
+    },
+
+    {
         title: 'Brawlhalla Ohara App',
         description: 'A comprehensive app for Brawlhalla enthusiasts, featuring character guides, strategies, and more.',
         repo: 'https://github.com/gregreborn/portfolio/tree/master/Brawlhalla_Ohara',
