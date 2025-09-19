@@ -17,7 +17,7 @@ const ProjectModal = ({ show, handleClose, project }) => {
                             <Carousel.Item key={index}>
                                 <img
                                     className="d-block w-100"
-                                    src={imgUrl}
+                                    src={`${process.env.PUBLIC_URL}/${imgUrl}`}
                                     alt={`Slide ${index + 1}`}
                                     style={{ maxHeight: '500px', objectFit: 'contain' }}
                                 />

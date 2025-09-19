@@ -110,7 +110,7 @@ function App() {
                         </p>
                     </div>
                     <div className="about-image">
-                        <img src="/my-portfolio/coder.jpg" alt="Gregory working" />
+                        <img src={`${process.env.PUBLIC_URL}/coder.jpg`} alt="Gregory working" />
                     </div>
                 </div>
             </section>

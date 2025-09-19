@@ -13,10 +13,10 @@ const ProjectCard = ({ project }) => {
         <>
             <Card className="card-container">
                 <div className="img1">
-                    <img src={project.image} alt={project.title} />
+                    <img src={`${process.env.PUBLIC_URL}/${project.image}`} alt={project.title} />
                 </div>
                 <div className="img2" onClick={handleShow}>
-                    <img src={project.circleImage} alt="Circle" />
+                    <img src={`${process.env.PUBLIC_URL}/${project.circleImage}`} alt="Circle" />
                 </div>
                 <div className="main-text">
                     <h2>{project.title}</h2>
